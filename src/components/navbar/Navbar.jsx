@@ -2,7 +2,7 @@ import React from "react";
 import "./navbar.css";
 
 const Navbar = () => {
-  return <div></div>;
+  const [menu, setMenu] = useState("shop");
 };
 
 export default Navbar;
